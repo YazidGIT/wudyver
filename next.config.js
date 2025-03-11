@@ -17,11 +17,11 @@ const nextConfig = {
   env: {
     MONGODB_URI: "mongodb+srv://Wudysoft:wudysoft@wudysoft.2hm26ic.mongodb.net/Api?retryWrites=true&w=majority&appName=Wudysoft",
     JWT_SECRET: "JWT_SECRET",
-    DOMAIN_URL: "api.malik-jmk.web.id",
+    DOMAIN_URL: "wudyverzet.onrender.com",
     ANALYZE: "true"
   },
   images: {
-    domains: ["api.malik-jmk.web.id", "cdn.weatherapi.com", "tile.openstreetmap.org", "www.chess.com", "deckofcardsapi.com"]
+    domains: ["wudyverzet.onrender.com/endpoint", "cdn.weatherapi.com", "tile.openstreetmap.org", "www.chess.com", "deckofcardsapi.com"]
   },
   async headers() {
     return [{
