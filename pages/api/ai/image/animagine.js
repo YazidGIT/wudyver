@@ -6,8 +6,8 @@ class Animagine {
   constructor() {
     this.session_hash = Math.random().toString(36).slice(2);
     this.payload = {
-      prompt: "",
-      negativePrompt: "",
+      prompt: "a cutie girl",
+      negativePrompt: "bad quality",
       seed: 807244162,
       width: 512,
       height: 512,
@@ -45,7 +45,7 @@ class Animagine {
     const data = this.generatePayload();
     const config = {
       method: "POST",
-      url: "https://cagliostrolab-animagine-xl-3-1.hf.space/queue/join?ref=huntscreens.com",
+      url: "https://asahina2k-animagine-xl-3-1.hf.space/queue/join?ref=huntscreens.com",
       headers: {
         "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0",
         "Accept-Encoding": "gzip, deflate, br, zstd",
@@ -70,7 +70,7 @@ class Animagine {
   }
   cekStatus() {
     return new Promise((resolve, reject) => {
-      const eventSource = new EventSource("https://cagliostrolab-animagine-xl-3-1.hf.space/queue/data?session_hash=" + this.session_hash);
+      const eventSource = new EventSource("https://asahina2k-animagine-xl-3-1.hf.space/queue/data?session_hash=" + this.session_hash);
       eventSource.onmessage = event => {
         const data = JSON.parse(event.data);
         if (data.msg === "process_completed") {
