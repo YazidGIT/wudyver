@@ -21,7 +21,7 @@ const nextConfig = {
     ANALYZE: "true"
   },
   images: {
-    domains: ["wudyverzet.onrender.com/endpoint", "cdn.weatherapi.com", "tile.openstreetmap.org", "www.chess.com", "deckofcardsapi.com"]
+    domains: ["wudyver-d132.onrender.com/endpoint", "cdn.weatherapi.com", "tile.openstreetmap.org", "www.chess.com", "deckofcardsapi.com"]
   },
   async headers() {
     return [{
