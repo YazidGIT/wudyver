@@ -4,7 +4,7 @@ const proxyUrls = [`https://${process.env.DOMAIN_URL}/api/tools/web/html/v1?url=
 class Genius {
   constructor() {
     this.GENIUS_API_URL = "https://api.genius.com";
-    this.GENIUS_ACCESS_TOKEN = "R1m3YdKyOHq0tZdV6GuCjMRWaXGgtlrmJq5ZaMnkps1WHjdUeSPWMYoXiPN73YoeHNmA4y-M6Wd8pWkXM-_Tww";
+    this.GENIUS_ACCESS_TOKEN = "qvkjyihqf-kQKRmBTUFAhmySKwFPSFB_QXKDWQOekdc7ZLAxUkoYQym_ceXlVpcP";
     this.headers = {
       Authorization: `Bearer ${this.GENIUS_ACCESS_TOKEN}`,
       "User-Agent": "apitester.org Android/7.5(641)"
