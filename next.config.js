@@ -17,7 +17,7 @@ const nextConfig = {
   env: {
     MONGODB_URI: "mongodb+srv://Wudysoft:wudysoft@wudysoft.2hm26ic.mongodb.net/Api?retryWrites=true&w=majority&appName=Wudysoft",
     JWT_SECRET: "JWT_SECRET",
-    DOMAIN_URL: "wudyverzet.onrender.com",
+    DOMAIN_URL: "wudyver-d132.onrender.com",
     ANALYZE: "true"
   },
   images: {
